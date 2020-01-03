@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PersonnelApp</string>
+    <integer name="personnelID">1</integer>
+    <string name="name">Jendo</string>
+    <string name="address">str1 moosejaw sk</string>
+    <string name="phone">3052314448</string>
+    <string name="email">aaaa@sas.com</string>
+    <string name="jobPosition">programmer</string>
+    <string name="supervisorName">mimimi</string>
+    <string name="role">staff</string>
+    <string name="birthday">19901005</string>
+    <string name="age">1</string>
+    <string name="id">1</string>
+    <bool name="married">false</bool>
+
+</resources>

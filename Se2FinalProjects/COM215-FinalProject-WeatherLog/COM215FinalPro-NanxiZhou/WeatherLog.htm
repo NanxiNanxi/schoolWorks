@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <link href="weather.css" rel="stylesheet" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main id="weatherLog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 header">
+                    <h1>Open Weather Map Weather Log</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <h4>Seached by:</h4>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h4>Show in search results:</h4>
+                </div>
+            </div>
+            <div class="row">
+                <form class="col-12 col-sm-3">
+                    <input type="radio" name="searchBy" id="cityRadio" value=1 checked>City Name<br>
+                    <input type="radio" name="searchBy" id="postalRadio" value=2>Postal Code<br>
+                    <input type="radio" name="searchBy" id="LatLongRadio" value=3>Latitude/Longitude<br>
+                </form>
+                <form class="col-12 col-sm-7 formJustify">
+                    <table border="1" cellspacing="0" id="resultCriteria">
+                        <tr>
+                            <td><input type="checkbox" name="searchResult" id="Longitude" value="2" checked>Longitude</td>
+                            <td><input type="checkbox" name="searchResult" id="Latitude" value="1" checked>Latitude</td>
+                            <td><input type="checkbox" name="searchResult" id="Temperature" value="0" checked>Temperature</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="searchResult" id="Pressure" value="3" checked>Pressure</td>
+                            <td><input type="checkbox" name="searchResult" id="Humidity" value="4" checked>Humidity</td>
+                            <td><input type="checkbox" name="searchResult" id="Wind Speed" value="5" checked>Wind Speed</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="searchResult" id="Wind Direction" value="6" checked>Wind Direction</td>
+                            <td><input type="checkbox" name="searchResult" id="Sunrise" value="7" checked>Sunrise</td>
+                            <td><input type="checkbox" name="searchResult" id="Sunset" value="8" checked>Sunset</td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="row">
+            
+                <div class="col-12 col-sm-7 formJustify" id="criteriaBoxes">
+                    <form class="formRow" id="City">
+                        <br />
+                        <label for="CityName">City Name: </label>
+                        <input class="validated" name="CityName" id="CityName" type="text" required />
+                        <label for="CountryCode">Country Code: </label>
+                        <input class="validated" Pattern="[a-zA-Z]{2}" name="CountryCode" id="CountryCode" type="text"
+                            required />
+                    </form>
+                    <form class="formRow" id="Postal">
+                        <br />
+                        <label for="PostalCode">Postal Code: </label>
+                        <input class="validated" Pattern="[A-Z][0-9][A-Z]" name="PostalCode" id="PostalCode" type="text"
+                            required />
+                        <label for="CountryCode">Country Code: </label>
+                        <input class="validated" Pattern="[a-zA-Z]{2}" name="CountryCode" id="CountryCodePO" type="text"
+                            required />
+                    </form>
+                    <form class="formRow" id="LatLong">
+                        <br />
+                        <label for="Latitude">Latitude:</label>
+                        <input class="validated" name="Latitude" id="Latitude" type="text"
+                            pattern="((^[-]?[0-9])|(^[-]?[1-8]([0-9])?))(([.](([0-9])|([0-5][0-9])))?){1,2}$"
+                            required />
+                        <label for="Longitude">Longitude: </label>
+                        <input class="validated" name="Longitude" id="Longitude" type="text"
+                            pattern="((^[-]?[0-9])|(^[-]?[2-9]([0-9])?)|(^[-]?[1](([0-7])?)(([0-9])?)))(([.](([0-9])|([1-5][0-9])))?){1,2}$"
+                            required />
+                    </form>
+                </div>
+                
+                <br>
+                <div class="col-12 col-sm-1">
+                    <br>
+                    <input id="SearchButton" type="button" value="Search" />
+                </div>
+            </div>
+            <div class="row">
+                <br>
+                <div class="col-12 col-sm-5">
+                    <h4>Current Weather</h4>
+                </div>
+            </div>
+            <div class="row">
+                <br>
+                <form class="col-12 col-sm-8">
+                    <table id="currentWeatherTable">
+                        <tr>
+                            <td id="getCity"></td>
+                            <td id="getCountry"></td>
+                        <tr>
+                        <tr>
+                            <td id="getWeather"></td>
+                            <td id="0"></td>
+                        </tr>
+                        <tr>
+                            <td id="1"></td>
+                            <td id="2"></td>
+                        </tr>
+                        <tr>
+                            <td id="3"></td>
+                            <td id="4"></td>
+                        </tr>
+                        <tr>
+                            <td id="5"></td>
+                            <td id="6"></td>
+                        </tr>
+                        <tr>
+                            <td id="7"></td>
+                            <td id="8"></td>
+                        </tr>
+
+
+
+                    </table>
+                </form>
+            </div>
+            <div class="row">
+                <br>
+                <div class="col-12 col-sm-5">
+                    <h4>Search Log</h4>
+                </div>
+            </div>
+            <div class="row">
+                <br>
+                <table border="1" cellspacing="0" class="col-12" id="storageTable">
+                    <tr>
+                        <th>City</th>
+                        <th>Country</th>
+                        <th>Longitude</th>
+                        <th>Latitude</th>
+                        <th>Weather</th>
+                        <th>Temperature</th>
+                        <th>Pressure</th>
+                        <th>Humidity</th>
+                        <th>Wind Speed</th>
+                        <th>Wind Direction</th>
+                        <th>Sunrise</th>
+                        <th>Sunset</th>
+                        <th> <input id="clearLogButton" type="button" value="Clear log" /></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
+<script src="weather.js"></script>

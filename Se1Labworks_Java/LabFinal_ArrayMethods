@@ -1,0 +1,37 @@
+public class ArrayMethods 
+{
+      public static int getMaxIndex(int[] array)
+    {
+       int max = 0;
+       for(int i = 0; i < array.length; i++)
+       {
+           if(array[max] < array[i])
+           {
+               max = i;
+           }
+       }
+       return max;
+    }
+      
+       public static double[] calculatePay(int[] units, double[] payRates)
+    {
+        double[] weeklyPay = new double[units.length];
+        for(int i = 0; i < units.length; i++)
+        {
+            weeklyPay[i] = units[i] * 4.99 + (units[i] * 4.99)*payRates[i];
+           
+        }
+        return weeklyPay;
+    }
+    
+       public static double[] setCommision(double[] rate, int[] units )
+       {
+           double[] newComission = new double[units.length];
+           for (int i = 0; i < rate.length; i++) 
+           {
+               if(units[i] > 50) newComission[i] = rate[i] * 1.005;
+               else newComission[i] = rate[i];
+           }
+           return newComission;
+       }
+}

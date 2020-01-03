@@ -1,0 +1,23 @@
+<Window x:Class="_2lottery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2lottery"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="248.337" Width="462.916">
+    <Grid>
+        <Label x:Name="label" Content="Three number lottery:" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="txtThree" HorizontalAlignment="Left" Height="23" Margin="157,10,0,0" VerticalAlignment="Top" Width="274"/>
+        <Label x:Name="label_Copy" Content="Four number lottery:" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="128"/>
+        <TextBox x:Name="txtFour" HorizontalAlignment="Left" Height="23" Margin="157,50,0,0" VerticalAlignment="Top" Width="274"/>
+        <TextBox x:Name="txtFive" HorizontalAlignment="Left" Height="23" Margin="157,100,0,0" VerticalAlignment="Top" Width="274"/>
+        <Label x:Name="label_Copy1" Content="Five number lottery:" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="128"/>
+        <Label x:Name="label_Copy2" Content="Five  number + 1 lottery:" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Width="140"/>
+        <TextBox x:Name="txtFivePlus" HorizontalAlignment="Left" Height="23" Margin="157,150,0,0" VerticalAlignment="Top" Width="220"/>
+        <TextBox x:Name="txtFivePlus1" HorizontalAlignment="Left" Height="23" Margin="390,150,0,0" VerticalAlignment="Top" Width="41"/>
+        <Button x:Name="generate" Content="Generate" HorizontalAlignment="Left" Margin="356,186,0,0" VerticalAlignment="Top" Width="75" Click="generate_Click"/>
+
+
+    </Grid>
+</Window>

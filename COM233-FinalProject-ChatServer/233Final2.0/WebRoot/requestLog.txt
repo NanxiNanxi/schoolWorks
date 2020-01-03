@@ -1,0 +1,1716 @@
+﻿
+20190418_091709
+WebRoot\serdssad.htm
+
+20190418_091709
+java.io.FileNotFoundException: WebRoot\serdssad.htm (系统找不到指定的文件。)
+
+20190418_091709
+GET /serdssad.htm HTTP/1.1
+
+20190418_091709
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_091709
+Accept-Language: zh-CN
+
+20190418_091709
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_091709
+Accept-Encoding: gzip, deflate
+
+20190418_091709
+Host: localhost:12345
+
+20190418_091709
+Connection: Keep-Alive
+
+20190418_091709
+
+
+20190418_091712
+WebRoot\servicepage.htm
+
+20190418_091713
+GET /servicepage.htm HTTP/1.1
+
+20190418_091713
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_091713
+Accept-Language: zh-CN
+
+20190418_091713
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_091713
+Accept-Encoding: gzip, deflate
+
+20190418_091713
+Host: localhost:12345
+
+20190418_091713
+Connection: Keep-Alive
+
+20190418_091713
+
+
+20190418_091718
+WebRoot\default.htm
+
+20190418_091718
+GET /subdir/ HTTP/1.1
+
+20190418_091718
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_091718
+Accept-Language: zh-CN
+
+20190418_091718
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_091718
+Accept-Encoding: gzip, deflate
+
+20190418_091718
+Host: localhost:12345
+
+20190418_091718
+Connection: Keep-Alive
+
+20190418_091718
+
+
+20190418_091721
+WebRoot\default.htm
+
+20190418_091721
+GET /subdir HTTP/1.1
+
+20190418_091721
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_091721
+Accept-Language: zh-CN
+
+20190418_091721
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_091721
+Accept-Encoding: gzip, deflate
+
+20190418_091721
+Host: localhost:12345
+
+20190418_091721
+Connection: Keep-Alive
+
+20190418_091721
+
+
+20190418_091735
+WebRoot\servicepage.htm
+
+20190418_091735
+GET /servicepage.htm HTTP/1.1
+
+20190418_091735
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_091735
+Accept-Language: zh-CN
+
+20190418_091735
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_091735
+Accept-Encoding: gzip, deflate
+
+20190418_091735
+Host: localhost:12345
+
+20190418_091735
+Connection: Keep-Alive
+
+20190418_091735
+
+
+20190418_091740
+WebRoot\doSERVICE?Criteria=3000&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_091744
+GET /doSERVICE?Criteria=3000&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_091744
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_091744
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_091744
+Accept-Language: zh-CN
+
+20190418_091744
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_091744
+Accept-Encoding: gzip, deflate
+
+20190418_091744
+Host: localhost:12345
+
+20190418_091744
+Connection: Keep-Alive
+
+20190418_091744
+
+
+20190418_091756
+WebRoot\serdssad.htm
+
+20190418_091756
+java.io.FileNotFoundException: WebRoot\serdssad.htm (系统找不到指定的文件。)
+
+20190418_091756
+GET /serdssad.htm HTTP/1.1
+
+20190418_091756
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_091756
+Accept-Language: zh-CN
+
+20190418_091756
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_091756
+Accept-Encoding: gzip, deflate
+
+20190418_091756
+Host: localhost:12345
+
+20190418_091756
+Connection: Keep-Alive
+
+20190418_091756
+
+
+20190418_091801
+WebRoot\servicepage.htm
+
+20190418_091801
+GET /servicepage.htm HTTP/1.1
+
+20190418_091801
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_091801
+Accept-Language: zh-CN
+
+20190418_091801
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_091801
+Accept-Encoding: gzip, deflate
+
+20190418_091801
+Host: localhost:12345
+
+20190418_091801
+Connection: Keep-Alive
+
+20190418_091801
+
+
+20190418_091807
+WebRoot\doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Servicedefault.htm
+
+20190418_091810
+GET /doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Service HTTP/1.1
+
+20190418_091810
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_091810
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_091810
+Accept-Language: zh-CN
+
+20190418_091810
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_091810
+Accept-Encoding: gzip, deflate
+
+20190418_091810
+Host: localhost:12345
+
+20190418_091810
+Connection: Keep-Alive
+
+20190418_091810
+
+
+20190418_092744
+WebRoot\servicepage.htm
+
+20190418_092744
+GET /servicepage.htm HTTP/1.1
+
+20190418_092744
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_092744
+Accept-Language: zh-CN
+
+20190418_092744
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_092744
+Accept-Encoding: gzip, deflate
+
+20190418_092744
+Host: localhost:12345
+
+20190418_092744
+Connection: Keep-Alive
+
+20190418_092744
+
+
+20190418_092752
+WebRoot\doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_092756
+GET /doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_092756
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_092756
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_092756
+Accept-Language: zh-CN
+
+20190418_092756
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_092756
+Accept-Encoding: gzip, deflate
+
+20190418_092756
+Host: localhost:12345
+
+20190418_092756
+Connection: Keep-Alive
+
+20190418_092756
+
+
+20190418_092815
+WebRoot\serdssad.htm
+
+20190418_092815
+java.io.FileNotFoundException: WebRoot\serdssad.htm (系统找不到指定的文件。)
+
+20190418_092815
+GET /serdssad.htm HTTP/1.1
+
+20190418_092815
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_092815
+Accept-Language: zh-CN
+
+20190418_092815
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_092815
+Accept-Encoding: gzip, deflate
+
+20190418_092815
+Host: localhost:12345
+
+20190418_092815
+Connection: Keep-Alive
+
+20190418_092815
+
+
+20190418_092817
+WebRoot\servicepage.htm
+
+20190418_092817
+GET /servicepage.htm HTTP/1.1
+
+20190418_092817
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_092817
+Accept-Language: zh-CN
+
+20190418_092817
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_092817
+Accept-Encoding: gzip, deflate
+
+20190418_092817
+Host: localhost:12345
+
+20190418_092817
+Connection: Keep-Alive
+
+20190418_092817
+
+
+20190418_092826
+WebRoot\doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Servicedefault.htm
+
+20190418_092830
+GET /doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Service HTTP/1.1
+
+20190418_092830
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_092830
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_092830
+Accept-Language: zh-CN
+
+20190418_092830
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_092830
+Accept-Encoding: gzip, deflate
+
+20190418_092830
+Host: localhost:12345
+
+20190418_092830
+Connection: Keep-Alive
+
+20190418_092830
+
+
+20190418_092838
+WebRoot\servicepage.htm
+
+20190418_092838
+GET /servicepage.htm HTTP/1.1
+
+20190418_092838
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_092838
+Accept-Language: zh-CN
+
+20190418_092838
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_092838
+Accept-Encoding: gzip, deflate
+
+20190418_092838
+Host: localhost:12345
+
+20190418_092838
+Connection: Keep-Alive
+
+20190418_092838
+
+
+20190418_092841
+WebRoot\doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_092844
+GET /doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_092844
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_092844
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_092844
+Accept-Language: zh-CN
+
+20190418_092844
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_092844
+Accept-Encoding: gzip, deflate
+
+20190418_092844
+Host: localhost:12345
+
+20190418_092844
+Connection: Keep-Alive
+
+20190418_092844
+
+
+20190418_093047
+WebRoot\serdssad.htm
+
+20190418_093047
+java.io.FileNotFoundException: WebRoot\serdssad.htm (系统找不到指定的文件。)
+
+20190418_093047
+GET /serdssad.htm HTTP/1.1
+
+20190418_093047
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093047
+Accept-Language: zh-CN
+
+20190418_093047
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093047
+Accept-Encoding: gzip, deflate
+
+20190418_093047
+Host: localhost:12345
+
+20190418_093047
+Connection: Keep-Alive
+
+20190418_093047
+
+
+20190418_093050
+WebRoot\servicepage.htm
+
+20190418_093050
+GET /servicepage.htm HTTP/1.1
+
+20190418_093050
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093050
+Accept-Language: zh-CN
+
+20190418_093050
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093050
+Accept-Encoding: gzip, deflate
+
+20190418_093050
+Host: localhost:12345
+
+20190418_093050
+Connection: Keep-Alive
+
+20190418_093050
+
+
+20190418_093054
+WebRoot\doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_093058
+GET /doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_093058
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093058
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_093058
+Accept-Language: zh-CN
+
+20190418_093058
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093058
+Accept-Encoding: gzip, deflate
+
+20190418_093058
+Host: localhost:12345
+
+20190418_093058
+Connection: Keep-Alive
+
+20190418_093058
+
+
+20190418_093200
+WebRoot\serdssad.htm
+
+20190418_093200
+java.io.FileNotFoundException: WebRoot\serdssad.htm (系统找不到指定的文件。)
+
+20190418_093200
+GET /serdssad.htm HTTP/1.1
+
+20190418_093200
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093200
+Accept-Language: zh-CN
+
+20190418_093200
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093200
+Accept-Encoding: gzip, deflate
+
+20190418_093200
+Host: localhost:12345
+
+20190418_093200
+Connection: Keep-Alive
+
+20190418_093200
+
+
+20190418_093202
+WebRoot\servicepage.htm
+
+20190418_093202
+GET /servicepage.htm HTTP/1.1
+
+20190418_093202
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093202
+Accept-Language: zh-CN
+
+20190418_093202
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093202
+Accept-Encoding: gzip, deflate
+
+20190418_093202
+Host: localhost:12345
+
+20190418_093202
+Connection: Keep-Alive
+
+20190418_093202
+
+
+20190418_093205
+WebRoot\doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_093210
+GET /doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_093210
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093210
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_093210
+Accept-Language: zh-CN
+
+20190418_093210
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093210
+Accept-Encoding: gzip, deflate
+
+20190418_093210
+Host: localhost:12345
+
+20190418_093210
+Connection: Keep-Alive
+
+20190418_093210
+
+
+20190418_093323
+WebRoot\servicepage.htm
+
+20190418_093323
+GET /servicepage.htm HTTP/1.1
+
+20190418_093323
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093323
+Accept-Language: zh-CN
+
+20190418_093323
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093323
+Accept-Encoding: gzip, deflate
+
+20190418_093323
+Host: localhost:12345
+
+20190418_093323
+Connection: Keep-Alive
+
+20190418_093323
+
+
+20190418_093327
+WebRoot\doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_093330
+GET /doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_093330
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093330
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_093331
+Accept-Language: zh-CN
+
+20190418_093331
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093331
+Accept-Encoding: gzip, deflate
+
+20190418_093331
+Host: localhost:12345
+
+20190418_093331
+Connection: Keep-Alive
+
+20190418_093331
+
+
+20190418_093340
+WebRoot\servicepage.htm
+
+20190418_093340
+GET /servicepage.htm HTTP/1.1
+
+20190418_093340
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093340
+Accept-Language: zh-CN
+
+20190418_093340
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093340
+Accept-Encoding: gzip, deflate
+
+20190418_093340
+Host: localhost:12345
+
+20190418_093340
+Connection: Keep-Alive
+
+20190418_093340
+
+
+20190418_093343
+WebRoot\doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Servicedefault.htm
+
+20190418_093351
+WebRoot\serdssad.htm
+
+20190418_093351
+java.io.FileNotFoundException: WebRoot\serdssad.htm (系统找不到指定的文件。)
+
+20190418_093351
+GET /serdssad.htm HTTP/1.1
+
+20190418_093351
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093351
+Accept-Language: zh-CN
+
+20190418_093351
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093351
+Accept-Encoding: gzip, deflate
+
+20190418_093351
+Host: localhost:12345
+
+20190418_093351
+Connection: Keep-Alive
+
+20190418_093351
+
+
+20190418_093355
+WebRoot\servicepage.htm
+
+20190418_093355
+GET /servicepage.htm HTTP/1.1
+
+20190418_093355
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093355
+Accept-Language: zh-CN
+
+20190418_093355
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093355
+Accept-Encoding: gzip, deflate
+
+20190418_093355
+Host: localhost:12345
+
+20190418_093355
+Connection: Keep-Alive
+
+20190418_093355
+
+
+20190418_093359
+WebRoot\doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Servicedefault.htm
+
+20190418_093406
+WebRoot\servicepage.htm
+
+20190418_093406
+GET /servicepage.htm HTTP/1.1
+
+20190418_093406
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093406
+Accept-Language: zh-CN
+
+20190418_093406
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093406
+Accept-Encoding: gzip, deflate
+
+20190418_093406
+Host: localhost:12345
+
+20190418_093406
+Connection: Keep-Alive
+
+20190418_093406
+
+
+20190418_093410
+WebRoot\doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Servicedefault.htm
+
+20190418_093414
+GET /doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Service HTTP/1.1
+
+20190418_093414
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093414
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_093414
+Accept-Language: zh-CN
+
+20190418_093414
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093414
+Accept-Encoding: gzip, deflate
+
+20190418_093414
+Host: localhost:12345
+
+20190418_093414
+Connection: Keep-Alive
+
+20190418_093414
+
+
+20190418_093428
+WebRoot\servicepage.htm
+
+20190418_093428
+GET /servicepage.htm HTTP/1.1
+
+20190418_093428
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093428
+Accept-Language: zh-CN
+
+20190418_093428
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093428
+Accept-Encoding: gzip, deflate
+
+20190418_093428
+Host: localhost:12345
+
+20190418_093428
+Connection: Keep-Alive
+
+20190418_093428
+
+
+20190418_093435
+WebRoot\doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_093438
+GET /doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_093438
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093438
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_093438
+Accept-Language: zh-CN
+
+20190418_093438
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093438
+Accept-Encoding: gzip, deflate
+
+20190418_093438
+Host: localhost:12345
+
+20190418_093438
+Connection: Keep-Alive
+
+20190418_093438
+
+
+20190418_093600
+WebRoot\servicepage.htm
+
+20190418_093600
+GET /servicepage.htm HTTP/1.1
+
+20190418_093600
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093600
+Accept-Language: zh-CN
+
+20190418_093600
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093600
+Accept-Encoding: gzip, deflate
+
+20190418_093600
+Host: localhost:12345
+
+20190418_093600
+Connection: Keep-Alive
+
+20190418_093600
+
+
+20190418_093606
+WebRoot\doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Servicedefault.htm
+
+20190418_093609
+GET /doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Service HTTP/1.1
+
+20190418_093609
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093609
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_093609
+Accept-Language: zh-CN
+
+20190418_093609
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093609
+Accept-Encoding: gzip, deflate
+
+20190418_093609
+Host: localhost:12345
+
+20190418_093609
+Connection: Keep-Alive
+
+20190418_093609
+
+
+20190418_093614
+WebRoot\serdssad.htm
+
+20190418_093615
+java.io.FileNotFoundException: WebRoot\serdssad.htm (系统找不到指定的文件。)
+
+20190418_093615
+GET /serdssad.htm HTTP/1.1
+
+20190418_093615
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093615
+Accept-Language: zh-CN
+
+20190418_093615
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093615
+Accept-Encoding: gzip, deflate
+
+20190418_093615
+Host: localhost:12345
+
+20190418_093615
+Connection: Keep-Alive
+
+20190418_093615
+
+
+20190418_093622
+WebRoot\servicepage.htm
+
+20190418_093622
+GET /servicepage.htm HTTP/1.1
+
+20190418_093622
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093622
+Accept-Language: zh-CN
+
+20190418_093622
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093622
+Accept-Encoding: gzip, deflate
+
+20190418_093622
+Host: localhost:12345
+
+20190418_093622
+Connection: Keep-Alive
+
+20190418_093622
+
+
+20190418_093634
+WebRoot\doSERVICE?Criteria=3000&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_093638
+GET /doSERVICE?Criteria=3000&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_093638
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093638
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_093638
+Accept-Language: zh-CN
+
+20190418_093638
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093638
+Accept-Encoding: gzip, deflate
+
+20190418_093638
+Host: localhost:12345
+
+20190418_093638
+Connection: Keep-Alive
+
+20190418_093638
+
+
+20190418_093719
+WebRoot\servicepage.htm
+
+20190418_093719
+GET /servicepage.htm HTTP/1.1
+
+20190418_093719
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093719
+Accept-Language: zh-CN
+
+20190418_093719
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093719
+Accept-Encoding: gzip, deflate
+
+20190418_093719
+Host: localhost:12345
+
+20190418_093719
+Connection: Keep-Alive
+
+20190418_093719
+
+
+20190418_093724
+WebRoot\doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_093729
+GET /doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_093729
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_093729
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_093729
+Accept-Language: zh-CN
+
+20190418_093729
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_093729
+Accept-Encoding: gzip, deflate
+
+20190418_093729
+Host: localhost:12345
+
+20190418_093729
+Connection: Keep-Alive
+
+20190418_093729
+
+
+20190418_094010
+WebRoot\servicepage.htm
+
+20190418_094010
+GET /servicepage.htm HTTP/1.1
+
+20190418_094010
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_094010
+Accept-Language: zh-CN
+
+20190418_094010
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_094010
+Accept-Encoding: gzip, deflate
+
+20190418_094010
+Host: localhost:12345
+
+20190418_094010
+Connection: Keep-Alive
+
+20190418_094010
+
+
+20190418_094014
+WebRoot\doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_094017
+GET /doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_094017
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_094017
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_094017
+Accept-Language: zh-CN
+
+20190418_094017
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_094017
+Accept-Encoding: gzip, deflate
+
+20190418_094017
+Host: localhost:12345
+
+20190418_094017
+Connection: Keep-Alive
+
+20190418_094017
+
+
+20190418_100629
+WebRoot\default.htm
+
+20190418_100629
+GET / HTTP/1.1
+
+20190418_100629
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100629
+WebRoot\favicon.icodefault.htm
+
+20190418_100629
+Accept-Language: en-CA
+
+20190418_100629
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100629
+java.io.FileNotFoundException: WebRoot\favicon.icodefault.htm (The system cannot find the file specified)
+
+20190418_100629
+Accept-Encoding: gzip, deflate
+
+20190418_100629
+GET /favicon.ico HTTP/1.1
+
+20190418_100629
+Host: localhost:12345
+
+20190418_100629
+Accept: */*
+
+20190418_100629
+Connection: Keep-Alive
+
+20190418_100629
+
+
+20190418_100629
+Accept-Encoding: gzip, deflate
+
+20190418_100629
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100629
+Host: localhost:12345
+
+20190418_100629
+Connection: Keep-Alive
+
+20190418_100629
+
+
+20190418_100638
+WebRoot\servicepage.htm
+
+20190418_100638
+GET /servicepage.htm HTTP/1.1
+
+20190418_100638
+WebRoot\favicon.icodefault.htm
+
+20190418_100638
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100638
+java.io.FileNotFoundException: WebRoot\favicon.icodefault.htm (The system cannot find the file specified)
+
+20190418_100638
+Accept-Language: en-CA
+
+20190418_100638
+GET /favicon.ico HTTP/1.1
+
+20190418_100638
+Accept: */*
+
+20190418_100638
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100638
+Accept-Encoding: gzip, deflate
+
+20190418_100638
+Accept-Encoding: gzip, deflate
+
+20190418_100638
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100638
+Host: localhost:12345
+
+20190418_100638
+Connection: Keep-Alive
+
+20190418_100638
+Host: localhost:12345
+
+20190418_100638
+Connection: Keep-Alive
+
+20190418_100638
+
+
+20190418_100638
+
+
+20190418_100645
+WebRoot\doSERVICE?Criteria=Jo&Field=FirstName&Submit=Run+Servicedefault.htm
+
+20190418_100653
+GET /doSERVICE?Criteria=Jo&Field=FirstName&Submit=Run+Service HTTP/1.1
+
+20190418_100653
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100653
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_100653
+Accept-Language: en-CA
+
+20190418_100653
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100653
+Accept-Encoding: gzip, deflate
+
+20190418_100653
+Host: localhost:12345
+
+20190418_100653
+Connection: Keep-Alive
+
+20190418_100653
+
+
+20190418_100740
+WebRoot\default.htm
+
+20190418_100740
+GET / HTTP/1.1
+
+20190418_100740
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100740
+Accept-Language: en-CA
+
+20190418_100740
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100740
+Accept-Encoding: gzip, deflate
+
+20190418_100740
+Host: localhost:12345
+
+20190418_100740
+Connection: Keep-Alive
+
+20190418_100740
+
+
+20190418_100743
+WebRoot\servicepage.htm
+
+20190418_100743
+GET /servicepage.htm HTTP/1.1
+
+20190418_100743
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100743
+Accept-Language: en-CA
+
+20190418_100743
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100743
+Accept-Encoding: gzip, deflate
+
+20190418_100743
+Host: localhost:12345
+
+20190418_100743
+Connection: Keep-Alive
+
+20190418_100743
+
+
+20190418_100754
+WebRoot\servicepdefault.htm
+
+20190418_100754
+java.io.FileNotFoundException: WebRoot\servicepdefault.htm (The system cannot find the file specified)
+
+20190418_100754
+GET /servicep HTTP/1.1
+
+20190418_100754
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100754
+Accept-Language: en-CA
+
+20190418_100754
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100754
+Accept-Encoding: gzip, deflate
+
+20190418_100754
+Host: localhost:12345
+
+20190418_100754
+Connection: Keep-Alive
+
+20190418_100754
+
+
+20190418_100759
+WebRoot\servicepage.htm
+
+20190418_100800
+GET /servicepage.htm HTTP/1.1
+
+20190418_100800
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100800
+Accept-Language: en-CA
+
+20190418_100800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100800
+Accept-Encoding: gzip, deflate
+
+20190418_100800
+Host: localhost:12345
+
+20190418_100800
+Connection: Keep-Alive
+
+20190418_100800
+
+
+20190418_100818
+WebRoot\subidrdefault.htm
+
+20190418_100818
+java.io.FileNotFoundException: WebRoot\subidrdefault.htm (The system cannot find the file specified)
+
+20190418_100819
+GET /subidr HTTP/1.1
+
+20190418_100819
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100819
+Accept-Language: en-CA
+
+20190418_100819
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100819
+Accept-Encoding: gzip, deflate
+
+20190418_100819
+Host: localhost:12345
+
+20190418_100819
+Connection: Keep-Alive
+
+20190418_100819
+
+
+20190418_100909
+WebRoot\subidr/default.htm
+
+20190418_100909
+java.io.FileNotFoundException: WebRoot\subidr\default.htm (The system cannot find the path specified)
+
+20190418_100909
+GET /subidr/ HTTP/1.1
+
+20190418_100909
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100909
+Accept-Language: en-CA
+
+20190418_100909
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100909
+Accept-Encoding: gzip, deflate
+
+20190418_100909
+Host: localhost:12345
+
+20190418_100909
+Connection: Keep-Alive
+
+20190418_100909
+
+
+20190418_100933
+WebRoot\subidr/default.htm
+
+20190418_100933
+java.io.FileNotFoundException: WebRoot\subidr\default.htm (The system cannot find the path specified)
+
+20190418_100933
+GET /subidr/ HTTP/1.1
+
+20190418_100933
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100933
+Accept-Language: en-CA
+
+20190418_100933
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100933
+Accept-Encoding: gzip, deflate
+
+20190418_100933
+Host: localhost:12345
+
+20190418_100933
+Connection: Keep-Alive
+
+20190418_100933
+
+
+20190418_100946
+WebRoot\subidr/default.htm
+
+20190418_100946
+java.io.FileNotFoundException: WebRoot\subidr\default.htm (The system cannot find the path specified)
+
+20190418_100946
+GET /subidr/default.htm HTTP/1.1
+
+20190418_100946
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_100946
+Accept-Language: en-CA
+
+20190418_100946
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_100946
+Accept-Encoding: gzip, deflate
+
+20190418_100946
+Host: localhost:12345
+
+20190418_100946
+Connection: Keep-Alive
+
+20190418_100946
+
+
+20190418_101003
+WebRoot\servicepage.htm
+
+20190418_101003
+GET /servicepage.htm HTTP/1.1
+
+20190418_101003
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_101003
+Accept-Language: en-CA
+
+20190418_101003
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_101003
+Accept-Encoding: gzip, deflate
+
+20190418_101003
+Host: localhost:12345
+
+20190418_101003
+Connection: Keep-Alive
+
+20190418_101003
+
+
+20190418_101011
+WebRoot\doSERVICE?Criteria=Jo&Field=FirstName&Submit=Run+Servicedefault.htm
+
+20190418_101017
+GET /doSERVICE?Criteria=Jo&Field=FirstName&Submit=Run+Service HTTP/1.1
+
+20190418_101017
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_101017
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_101017
+Accept-Language: en-CA
+
+20190418_101017
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_101017
+Accept-Encoding: gzip, deflate
+
+20190418_101017
+Host: localhost:12345
+
+20190418_101017
+Connection: Keep-Alive
+
+20190418_101017
+
+
+20190418_101030
+WebRoot\servicepage.htm
+
+20190418_101030
+GET /servicepage.htm HTTP/1.1
+
+20190418_101030
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_101030
+Accept-Language: en-CA
+
+20190418_101030
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_101030
+Accept-Encoding: gzip, deflate
+
+20190418_101030
+Host: localhost:12345
+
+20190418_101030
+Connection: Keep-Alive
+
+20190418_101030
+
+
+20190418_101035
+WebRoot\doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Servicedefault.htm
+
+20190418_101043
+GET /doSERVICE?Criteria=sss&Field=FirstName&Submit=Run+Service HTTP/1.1
+
+20190418_101043
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_101043
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_101043
+Accept-Language: en-CA
+
+20190418_101043
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_101043
+Accept-Encoding: gzip, deflate
+
+20190418_101043
+Host: localhost:12345
+
+20190418_101043
+Connection: Keep-Alive
+
+20190418_101043
+
+
+20190418_101050
+WebRoot\servicepage.htm
+
+20190418_101050
+GET /servicepage.htm HTTP/1.1
+
+20190418_101050
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_101050
+Accept-Language: en-CA
+
+20190418_101050
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_101050
+Accept-Encoding: gzip, deflate
+
+20190418_101050
+Host: localhost:12345
+
+20190418_101050
+Connection: Keep-Alive
+
+20190418_101050
+
+
+20190418_101056
+WebRoot\doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Servicedefault.htm
+
+20190418_101103
+GET /doSERVICE?Criteria=sss&Field=JobCode&Submit=Run+Service HTTP/1.1
+
+20190418_101103
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_101103
+Referer: http://localhost:12345/servicepage.htm
+
+20190418_101103
+Accept-Language: en-CA
+
+20190418_101103
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_101103
+Accept-Encoding: gzip, deflate
+
+20190418_101103
+Host: localhost:12345
+
+20190418_101103
+Connection: Keep-Alive
+
+20190418_101103
+
+
+20190418_101118
+WebRoot\servicepage.htm
+
+20190418_101118
+GET /servicepage.htm HTTP/1.1
+
+20190418_101118
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+
+20190418_101118
+Accept-Language: en-CA
+
+20190418_101118
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+
+20190418_101118
+Accept-Encoding: gzip, deflate
+
+20190418_101118
+Host: localhost:12345
+
+20190418_101118
+Connection: Keep-Alive
+
+20190418_101118
+

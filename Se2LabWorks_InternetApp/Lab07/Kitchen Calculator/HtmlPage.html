@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <link href="StyleSheet.css" rel="stylesheet" />
+    
+
+</head>
+<body>
+    <div id="outer">
+        <h1>Kitchen Calculator</h1>
+        <div class="row">
+            <div class="form-group col-12 col-sm-8">
+                <div class="row">
+                    <label class="control-label col-12 col-sm-4">1. Select your Product type:</label>
+                    <div class="col-12 col-sm-3">
+                        <select id="nameOfCabinet" name="nameOfCabinets" onclick="showPics()">
+                            <option value=5>--Select Your Product--</option>
+                            <option value=0>Wall Cabinets</option>
+                            <option value=1>Base Cabinets</option>
+                            <option value=2>Counter Tops</option>
+
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <label class="control-label col-12 col-sm-4" >2. Select the Product line:</label>
+                    <form class="col-12 col-sm-3">
+                            <input type="radio" name="kitchenStyle" value=0 onclick="changeBorder(1)">Empire Standard<br>
+                            <input type="radio" name="kitchenStyle" value=1 onclick="changeBorder(2)">Kitchen Elite<br>
+                            <input type="radio" name="kitchenStyle" value=2 onclick="changeBorder(3)">Gold Star Plus<br>
+                    </form>
+                </div>
+                <br>
+                <div class="row">
+                    <label class="control-label col-12 col-sm-4">3. Enter the linear footage:</label>
+                    <input type="number" class="form-control col-12 col-sm-3" id="footage" required>
+                </div>
+                <br>
+                <div class="row" id="counterTop">
+                    <label class="control-label col-12 col-sm-4">4. If cabinets, how many corner units?</label>
+                    <input type="number" class="form-control col-12 col-sm-3" id="numberOfUnits" required>
+                </div>
+                <br>
+                <div class="row" id="calculateDiv">
+                    <p class="col-12 col-sm-7">
+                        Click the
+                        <input type="button" value="Caculate" onclick="Calculate()">
+                        button
+                    </p>
+                </div>
+
+                <div class="row">
+                    <label class="control-label col-12 col-sm-4">5. And see the results: </label>
+                    <input type="number" class="form-control col-12 col-sm-3" id="results">
+                </div>
+
+            </div>
+
+            <div class="col-12 col-sm-4">
+                <p  id="showPic"></p>
+                <br>
+                <p id="showPic2"></p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+<script src="function2.js"></script>

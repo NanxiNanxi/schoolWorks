@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Assignment1 {
+
+    public static void main(String[] args)
+    {
+        int number;
+        Scanner keyboard = new Scanner(System.in);
+	System.out.println("please enter a number: ");
+        number =keyboard.nextInt();
+                
+        if (number % 2 != 0)
+        { System.out.println(number + "," + "Odd!");
+                
+        }
+        else
+        { System.out.println(number + "," + "Even!");
+        }
+    }
+    
+}

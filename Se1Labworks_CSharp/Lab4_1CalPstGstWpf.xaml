@@ -1,0 +1,53 @@
+<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="769.824" Width="471.578">
+    <Grid HorizontalAlignment="Left" Width="457" Margin="0,0,0,-1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="199*"/>
+            <ColumnDefinition Width="37*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="TextItem1" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="118,72,0,0" FontSize="24" TextAlignment="Center"/>
+        <Label x:Name="label" Content="Item1" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <TextBox x:Name="TextItem2" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="118,122,0,0" FontSize="24" TextAlignment="Center"/>
+        <Label x:Name="labe2" Content="Item2" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <TextBox x:Name="TextItem3" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="118,172,0,0" FontSize="24" TextAlignment="Center"/>
+        <Label x:Name="label3" Content="Item3" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <TextBox x:Name="TextItem4" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="118,222,0,0" FontSize="24" TextAlignment="Center"/>
+        <Label x:Name="label4" Content="Item4" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <Label x:Name="labelp" Content="PST?" HorizontalAlignment="Left" Margin="295,26,0,0" VerticalAlignment="Top" Width="61" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <Label x:Name="labelg" Content="GST?" HorizontalAlignment="Left" Margin="381,26,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.295,-0.115" FontSize="20" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="checkBoxp1" Content="" HorizontalAlignment="Left" Margin="311,82,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxg1" Content="" HorizontalAlignment="Left" Margin="1,82,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <CheckBox x:Name="checkBoxp2" Content="" HorizontalAlignment="Left" Margin="311,135,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxg2" Content="" HorizontalAlignment="Left" Margin="1,135,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <CheckBox x:Name="checkBoxp3" Content="" HorizontalAlignment="Left" Margin="311,184,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxg3" Content="" HorizontalAlignment="Left" Margin="1,184,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <CheckBox x:Name="checkBoxp4" Content="" HorizontalAlignment="Left" Margin="311,236,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.575,-0.3"/>
+        <CheckBox x:Name="checkBoxg4" Content="" HorizontalAlignment="Left" Margin="1,236,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.525,-0.267" Grid.Column="1"/>
+        <TextBox x:Name="textSubtitle1" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="118,312,0,0" FontSize="24" TextAlignment="Center"/>
+        <TextBox x:Name="textShipping" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="118,362,0,0" FontSize="24" TextAlignment="Center"/>
+        <TextBox x:Name="textPST" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="118,452,0,0" FontSize="24" TextAlignment="Center"/>
+        <TextBox x:Name="textGST" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="118,502,0,0" FontSize="24" TextAlignment="Center"/>
+        <TextBox x:Name="textTotal" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="118,592,0,0" FontSize="24" TextAlignment="Center"/>
+        <Label x:Name="Subtotal" Content="Subtotal" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <Label x:Name="Shipping" Content="Shipping" HorizontalAlignment="Left" Margin="10,362,0,0" VerticalAlignment="Top" Width="103" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <Label x:Name="labelp2" Content="PST" HorizontalAlignment="Left" Margin="10,452,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <Label x:Name="labelg2" Content="GST" HorizontalAlignment="Left" Margin="10,502,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <Label x:Name="labelTotal" Content="Total" HorizontalAlignment="Left" Margin="10,592,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.295,-0.115" FontSize="20"/>
+        <RadioButton x:Name="radioButtons" Content="Ship(add 20%)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="311,0,0,287" Grid.ColumnSpan="2"/>
+        <RadioButton x:Name="radioButtonp" Content="Pickup" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="311,0,0,262" IsChecked="True"/>
+        <Button x:Name="buttonc" Content="Calculate" HorizontalAlignment="Left" Margin="321,604,0,0" VerticalAlignment="Top" Width="86" Click="button_Click" Height="25" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="38" Margin="118,648,0,0"  Width="156" RenderTransformOrigin="0.25,-0.087" FontSize="20" VerticalAlignment="Top" TextAlignment="Center">
+            <TextBox.ContextMenu>
+                <ContextMenu/>
+            </TextBox.ContextMenu>
+        </TextBox>
+        <Label x:Name="label1" Content="Commision" HorizontalAlignment="Left" Margin="0,652,0,0" VerticalAlignment="Top" FontSize="18" Width="113"/>
+
+    </Grid>
+</Window>

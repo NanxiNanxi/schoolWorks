@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PartB</title>
+    <link href="design.css" rel="stylesheet" />
+    <script>
+            function check(){
+            if(document.getElementById("WidgetPriceTextBox").value == "" || 
+               document.getElementById("NumberWidgetsSoldTextBox").value == "" ||
+               document.getElementById("CommissionRateTextBox").value == "" )
+               {
+                alert("All input values are required!")
+                }
+            }
+            function calculate() {
+                var price = document.getElementById("WidgetPriceTextBox").value
+                var numberOfWidgets = document.getElementById("NumberWidgetsSoldTextBox").value
+                var rate = document.getElementById("CommissionRateTextBox").value
+                var earned = (price* numberOfWidgets * rate)/100
+                document.getElementById("CommissionEarnedTextBox").value = earned
+            }
+    </script>
+</head>
+<body>
+    <div id="form">
+    <table border="1" cellspacing="0">
+            <tr>
+                <td colspan="3">Sales Commision Caculator Form</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Input Number Below</td>
+                <td rowspan="6">
+                    <input type="button" value="Check Numbers" onclick="check()">
+                    <br>
+                    <br>
+                    <input type="button" value="Calculate" onclick="calculate()">
+                </td>
+            </tr>
+            <tr>
+                <td>Price Per Widget Sold:</td>
+                <td><input type="number" id="WidgetPriceTextBox"></td>
+            </tr>
+            <tr>
+                <td>Number of Widgets Sold:</td>
+                <td><input type="number" id="NumberWidgetsSoldTextBox"></td>
+            </tr>
+            <tr>
+                <td>Commission Rate(%):</td>
+                <td><input type="number" id="CommissionRateTextBox"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>click Caculate Button to see result below:</td>
+            </tr>
+            <tr>
+                <td>Commission Earned:</td>
+                <td><input type="number" id="CommissionEarnedTextBox"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

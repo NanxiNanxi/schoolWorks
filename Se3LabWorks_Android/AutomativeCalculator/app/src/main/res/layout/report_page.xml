@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundInfo"
+        android:layout_below="@id/imageView"
+        android:text="@string/reportInfo"
+        android:textColor="@color/infoColor"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/monthlyPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/monthlyPay"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/report"
+        android:layout_centerInParent="true"
+        android:text="@string/buttonText2"/>
+
+
+</RelativeLayout>

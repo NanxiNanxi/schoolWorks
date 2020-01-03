@@ -1,0 +1,17 @@
+﻿#calculateDiv{
+    text-align: center
+}
+
+.pic{
+    text-align: left
+}
+img {
+    width: 50%;
+}
+
+.checkValid:valid{
+    background:rgb(212, 240, 202);
+}
+.checkValid:invalid{
+    background:rgba(250, 195, 201, 0.863);
+}

@@ -1,0 +1,145 @@
+public class ShippingPackage 
+{
+ private int id;
+ private String destination;
+ private int height;
+ private int width;
+ private int depth;
+ private double weight;
+ private static int NumberOfPackages;
+
+ public ShippingPackage(int id, String destination, int height,int width,int depth, double weight)
+ {
+     NumberOfPackages++;
+     this.id = id;
+     this.destination = destination;
+     this.height = height;
+     this.depth = depth;
+     this.weight = weight;
+     this.width = width;
+     
+ }
+ 
+ public ShippingPackage()
+ {
+     NumberOfPackages++;
+     this.id = 0;
+     this.destination = "";
+     this.height = 0;
+     this.depth = 0;
+     this.weight = 0;
+ }
+ 
+ public int getId()
+ {
+     return id;
+ }
+ public void setId(int id)
+ {
+     this.id = id;
+ }
+ 
+ public String getDestination()
+ {
+     return destination;
+ }
+ public void setDestination(String destination)
+ {
+     this.destination = destination;
+ }
+ 
+ public int getHeight()
+ {
+     return height;
+ }
+ public void setHeight(int height)
+ {
+     if(height >= 1) this.height = height;
+     else this.height = 1;
+ }
+ 
+ public int getWidth()
+ {
+     return width;
+ }
+ public void setWidth(int width)
+ {
+     if(width >= 1) this.width = width;
+     else this.width = 1;
+ }
+ public int getDepth()
+ {
+     return depth;
+ }
+ public void setDepth(int depth)
+ {
+    if(depth >= 1) this.depth = depth;
+     else this.depth = 1;
+ }
+ public double getWeight()
+ {
+     return weight;
+ }
+ public void setWeight(double weight)
+ {
+     this.weight = weight;
+ }
+
+ private int computeVolume()
+ {
+     int volume = width * depth * height;
+     return volume;
+ }
+ 
+ public double computeShipping()
+ {
+     double shipping =(double)(computeVolume() * .001 +.5 *weight);
+     return shipping;
+ }
+ 
+  public static int getNumberShipped()
+    {
+        return NumberOfPackages;
+    }
+}
+
+public class ShippingTest 
+{
+    public static void main(String[] args) 
+    {
+        Scanner k = new Scanner(System.in);
+        
+        ShippingPackage package1 = new ShippingPackage(1236, "Gerry's house", 15, 10,20,2.5);
+        double shipping = package1.computeShipping();
+        System.out.printf("f. The shipping cost for package1 is: $%.2f\n", shipping);
+        
+        ShippingPackage package2 = new ShippingPackage();
+        package2.setId(3278);
+        package2.setDestination("Susan's house");
+        System.out.println("Please enter a height: ");
+        package2.setHeight(k.nextInt());
+        System.out.println("Please enter a width: ");
+        package2.setWidth(k.nextInt());
+        System.out.println("Please enter a depth: ");
+        package2.setDepth(k.nextInt());
+        System.out.println("Please enter a weight: ");
+        package2.setWeight(k.nextDouble());
+        
+        double shippingOfP2 = package2.computeShipping();
+        System.out.printf("j. The shipping cost for package2 is: $%.2f\n", shippingOfP2);
+        
+        int numOfPackage = ShippingPackage.getNumberShipped();
+        double higherShipping = shipping;
+        int higerId = package1.getId();
+        if(shippingOfP2 > shipping) 
+        {
+            higherShipping = shippingOfP2;
+            higerId = package2.getId();
+        } 
+        
+        System.out.printf("k. There are " + numOfPackage + " packages have been shipped." 
+                + "\nPackage id " + higerId + " has a higher shipping cost: $%.2f", higherShipping);
+        
+    }
+    
+}

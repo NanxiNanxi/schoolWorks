@@ -1,0 +1,62 @@
+.outer {
+    border: solid black;
+}
+#SocialMedia {
+    background-color: lightblue;
+    border-top: solid black;
+    text-align: center;
+    border-right:  solid black;
+}
+
+#header {
+    text-align: center;
+    background-color: aquamarine;
+    color:red;
+}
+#footer{
+    text-align: center;
+    border-top: solid black;
+}
+#logo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#linkHead{
+color: darkblue;
+}
+#button li {
+  list-style: circle; 
+}
+
+#button li a:hover {
+    color:red;
+}
+#AboutUs{
+    border-top: solid black;
+    background-color: lightsteelblue;
+}
+#about{
+    color: blueviolet;
+}
+#detail{
+    color: black;
+}
+
+#addressHead{
+    color: blueviolet;
+}
+
+h3{
+    color: black;
+}
+#form{
+    border: 1px;
+    text-align: center;
+    
+}
+table{
+    width:100%
+}
+img { 
+  width: 100%; 
+}

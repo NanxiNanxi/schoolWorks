@@ -1,0 +1,56 @@
+﻿
+.outer {
+    border: solid pink;
+    text-align: center;
+}
+/*.col-12 {
+    text-align: center;
+}
+.col1 {
+    border-top:solid pink;
+    border-right:solid pink;
+}
+.col2 {
+     border-top:solid pink;
+}
+.col3{
+    border-top:solid pink;
+}
+.colBlack{
+    background-color: black;
+}
+.colWhite {
+    background-color: white;
+}*/
+
+.header {
+    text-align: center;
+}
+.mid1 {
+    border-top: solid pink;
+    text-align: center;
+    border-right:  solid pink;
+}
+.mid2{
+    border-top: solid pink;
+}
+.footer{
+    text-align: center;
+    border-top: solid pink;
+}
+.colGreen {
+    background-color: green;
+}
+.colPink {
+    background-color:pink; 
+}
+.chessBorad{
+    margin:30px;
+    text-align: center;
+   
+}
+
+.square {
+    padding-bottom: 100%;
+  }
+  

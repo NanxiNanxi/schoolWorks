@@ -1,0 +1,40 @@
+static Scanner keyboard = new Scanner(System.in);
+    public static double calculatePay( int hours, double payRate)
+    {
+        double money = 0;
+        if (hours > 40)
+        {
+            money = payRate * 40 + payRate*1.5*(hours - 40); 
+        }
+        if (hours <= 40)
+        {
+            money = payRate * 40;
+        }
+        return money;
+    }
+    
+    public static void main(String[] args)
+    {
+        System.out.println("Please enter your working hours(press 0 to quit): ");
+        int hours = keyboard.nextInt();
+        
+        double money = 0;
+        int i =0;
+        
+        while (hours >= 0)
+        {
+            System.out.println("Please enter your hourly wage: ");
+            int payRate = keyboard.nextInt();
+           
+            if(hours >=0)
+            {
+            money =  calculatePay(hours, payRate);
+            System.out.println("Your income is: " + money);  
+            
+            }
+            i++;
+            System.out.println("Please enter your working hours(press a minus number to quit): ");
+            hours = keyboard.nextInt();
+            
+        } 
+    }

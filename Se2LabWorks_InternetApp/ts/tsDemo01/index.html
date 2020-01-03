@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    //js中class的运用
+    function Person(){
+    this.name ='jsName'
+    this.age=20
+    this.run=function(){
+       alert(this.name +' '+ this.age)
+    }
+}
+var p =new Person()
+//p.run()
+
+//可增加属性(原型链)，这部分在所有创造出的实例中都共享，构造函数中的方法则不会
+Person.prototype.gendar="男"
+Person.prototype.work=function(){
+    alert(this.name+' is working')
+}
+p.work()
+
+//也可以创造static的方法
+Person.getInfo= function(){
+    alert('I\'m static')
+}
+Person.getInfo()
+
+//奇怪的继承，原型链+对象冒充的组合继承模式
+function web(){
+    Person.call(this);
+}
+var w = new web()
+//w 可继承构造函数中的属性和方法，无法继承原型链上的属性和方法
+w.run()
+w.work()//写出来不会报错，但在网页中并未运行
+
+    </script>
+</head>
+<body>
+    <div id="box">box</div>
+</body>
+</html>
+<script src="js/index.js"></script>

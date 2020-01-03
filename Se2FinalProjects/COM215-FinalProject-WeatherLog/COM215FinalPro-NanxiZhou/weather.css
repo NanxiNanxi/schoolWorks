@@ -1,0 +1,6 @@
+.formJustify{
+    text-align:justify;
+    text-align-last:justify
+}
+.validated:invalid { background-color:lightpink}
+.validated:valid { background-color:lightgreen}

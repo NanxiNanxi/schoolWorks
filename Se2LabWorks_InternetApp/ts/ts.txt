@@ -1,0 +1,52 @@
+/*安装，需要先安装node.js
+npm install --g typescript
+让vscode编译ts为js，使用代码 tsc --init
+创建了tsconfig.json文件，点开修改输出"outDir": "./js", 
+终端-运行任务-监视，形成js文件
+*/
+
+function getData(){
+
+}
+var str: string="helloTS";
+console.log(str)
+//语法不同，数据类型也不同
+/*数据类型有boolean*/
+var flag:boolean=true;
+//number 类型
+var num:number=123;
+//string类型
+var stri:string="helloWorld";
+//array，有两种定义方式
+//1
+var arr:number[] = [1,2,3,4];
+console.log(arr);
+//2
+var arr2:Array<number>=[4,3,2,1];
+console.log(arr2);
+//重点！！！！！！
+//元组类型 tuple， array的一种，类似于arraylist，可同时加入number与string
+let arr3:[number, string, number,string] = [123, 'This is tuple',345,'this is tuple too'];
+console.log(arr3)
+
+//枚举类型 enum，类似于坐标，以数字代表非数字或某种状态，如: 1 success 0 error
+enum Flag {success=1, error =2};
+let s:Flag=Flag.success;
+console.log(s);
+
+enum color{
+    blue=1,
+    red=2,
+    green=3,
+    black=4
+}
+let c:color = color.black
+console.log(c)
+
+/*enum bread{whiteBread,frenchBread,cake,muffin}
+let b:bread=bread.whiteBread
+console.log(b);*/
+//如果不赋值，自动按index值赋值，如果中途赋值，后一数字会从前面赋值的数字开始+1
+enum bread{whiteBread,frenchBread=1002,cake,muffin}
+let b:bread=bread.cake
+console.log(b);
