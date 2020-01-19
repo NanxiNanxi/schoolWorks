@@ -34,16 +34,27 @@ switch (myStatus){
 			}
 			else if(attack_type = ATTACK_SPECIAL_ATTACK){
 				
-				var h = instance_create_layer(x,y,"Instances",obj_special_attack);
-				h.image_xscale = other.image_xscale;
-				h.owner = self;
-				h.damage = 1;
-				with h{
-					//find direction 
-					h.speed = h.image_xscale*100;
-					h.direction = image_angle;
-					h.image_angle = image_angle
+				if(image_index >=2 and (image_index <=3)){
+					var h = instance_create_layer(x,y,"Instances",obj_special_attack);
+					h.image_xscale = other.image_xscale;
+					h.owner = self;
+					h.damage = 1;
+					//0.25 per frame, 4 frames per cycle
+					isSpecialAttackUsed = 0.25;
+				
+					with h{
+						//find direction 
+						
+						h.speed = h.image_xscale*100;
+						h.direction = image_angle;
+						h.image_angle = image_angle
 					
+					
+						//other.specialAttackCounter = other.specialAttackCounter - isSpecialAttackUsed?1:0;
+					}
+				
+				}
+			
 				
 				}
 
@@ -61,7 +72,7 @@ switch (myStatus){
 				h.x_offset = x_offset;
 				h.y_offset = y_offset;**/
 			
-			}
+			
 	
 	}
 }

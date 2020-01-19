@@ -20,6 +20,12 @@ spr_fall = 0;
 spr_attack[0] =0;
 spr_attack[1]=0;
 spr_attack[2]=0
+frameCounter = 0
+
+isLose1stPlay = true
+isWin1stPlay = true
+
+//isTimesUp = false;
 
 toLeft=0;
 toRight =0;
@@ -43,9 +49,11 @@ is1stSpecialCounterAdded = false;
 is2ndSpecialCounterAdded = false;
 is3rdSpecialCounterAdded = false;
 
-
+isSpecialAttackUsed = 0;
 
 onTheGround = false;
 can_attack = true;
 attack_type = ATTACK_KICK;
+
+
 

@@ -11,10 +11,10 @@ if(controller =CON_KEYBOARD){
 if(hp <=0){
 	isLose = true;
 }
-if(isLose){
-	room_goto(rm_end);
+//if(isLose){
+//	room_goto(rm_end);
 
-}
+//}
 
 if(hp < 250){
 	if(!is1stSpecialCounterAdded){
@@ -34,6 +34,8 @@ if(hp < 50 && hp > 0){
 		is3rdSpecialCounterAdded = true;
 	}
 }
+
+
 
 
 	

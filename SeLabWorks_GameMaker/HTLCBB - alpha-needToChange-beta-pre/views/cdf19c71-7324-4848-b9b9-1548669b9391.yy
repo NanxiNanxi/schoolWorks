@@ -18,7 +18,9 @@
         "0fe774ba-453e-4788-b561-3b1b2182112e",
         "9c1c76fd-c6c3-4be5-a255-3418fc7f99f8",
         "a7b26685-f231-4806-aaee-2ba1aaee0710",
-        "efa958b1-e346-4ef2-9510-ca76b7a91b06"
+        "efa958b1-e346-4ef2-9510-ca76b7a91b06",
+        "d9764887-79ca-4fad-a75b-ed95bb6e25ee",
+        "35aaf6c0-1539-4233-9770-0860bdf3cf71"
     ],
     "filterType": "GMSprite",
     "folderName": "Gavin",

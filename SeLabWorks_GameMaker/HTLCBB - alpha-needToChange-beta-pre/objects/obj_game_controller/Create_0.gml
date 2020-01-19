@@ -15,11 +15,16 @@ p1.myPlayer = PLAYER0;
 p1.character = global.player1_char;
 p2.character = global.player2_char;
 
-
+isTimesUp = false;
+isGameOver = false;
 
 p2.myEnemy = p1;
 p1.myEnemy = p2;
-if(room== rm_game){
+//if(room== rm_game){
+	//surface_resize(application_surface, 1000, 500);
+	
+//}
+if(room== rm_game || room== rm_game2){
 	surface_resize(application_surface, 1000, 500);
 	
 }

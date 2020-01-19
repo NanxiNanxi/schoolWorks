@@ -4,6 +4,7 @@
 		if other.owner == self
 	{
 		audio_play_sound(bgm_punch,1000, false)
+		
 		exit
 	}
 

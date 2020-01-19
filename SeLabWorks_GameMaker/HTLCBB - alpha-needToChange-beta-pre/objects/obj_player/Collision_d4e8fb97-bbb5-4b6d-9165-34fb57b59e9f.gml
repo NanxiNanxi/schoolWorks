@@ -1,9 +1,13 @@
 /// @description Insert description here
-// You can write your code in this editor
+
 if(isCanBeAttacked && isBlock = false){
 		if other.owner == self
 	{
+		specialAttackCounter = specialAttackCounter - isSpecialAttackUsed;
+		
 		audio_play_sound(bgm_punch,1000, false)
+		
+		
 		exit
 	}
 
@@ -11,6 +15,7 @@ if(isCanBeAttacked && isBlock = false){
 	hit = 1;
 	audio_play_sound(bgm_pain_short,1000, false)
 	hp -= other.damage;
+	
 	with other 
 		instance_destroy()
 
@@ -18,14 +23,17 @@ if(isCanBeAttacked && isBlock = false){
 else if(isCanBeAttacked && isBlock = true){
 if other.owner == self
 	{
+		specialAttackCounter = specialAttackCounter - isSpecialAttackUsed;
 		audio_play_sound(bgm_punch,1000, false)
+		
 		exit
 	}
 
-
 	hit = 1;
 	hp -= 0;
+	//specialAttackCounter -= specialAttackCounter;
 	//specialAttackCounter  = specialAttackCounter+1;
 	with other 
+		//isSpecialAttackUsed = false;
 		instance_destroy()
 }

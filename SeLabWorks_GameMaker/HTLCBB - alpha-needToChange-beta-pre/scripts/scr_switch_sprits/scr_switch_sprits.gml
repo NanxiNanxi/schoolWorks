@@ -14,9 +14,8 @@ switch(argument0){
 		spr_attack[3] = spr_Mike_jump_kick;
 		spr_attack[4] = spr_Mike_low_kick;
 		spr_attack[5] = spr_Mike_special_attack;
-		
-		attack_sprite_index[0] = 3;
-		attack_sprite_index[1] = 0;
+		spr_win = spr_Mike_win;
+		spr_lose = spr_Mike_lose;
 		
 		
 	break
@@ -34,9 +33,9 @@ switch(argument0){
 		spr_attack[3] = spr_Gavin_jump_kick;
 		spr_attack[4] = spr_Gavin_low_kick;
 		spr_attack[5] = spr_Gavin_special_attack
+		spr_win = spr_Gavin_win;
+		spr_lose = spr_Gavin_lose;
 		
-		attack_sprite_index[0] = 2;
-		attack_sprite_index[1] = 0;
 	break
 	
 }

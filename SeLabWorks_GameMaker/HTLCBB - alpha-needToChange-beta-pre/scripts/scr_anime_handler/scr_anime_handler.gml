@@ -1,11 +1,28 @@
 //handle animation of different movements 
 
+
+//handle win and lose scene
+if(hp = 0){
+	//audio_play_sound(bgm_die,1000, false)
+	scr_set_sprites_movement(spr_lose)
+	
+	if(isLose1stPlay){audio_play_sound(bgm_die,1000,false)}
+	isLose1stPlay = false
+	if(isWin1stPlay){alarm[0] = room_speed}
+	isWin1stPlay = false
+	
+	
+	exit
+	
+	
+}
+
 switch(myStatus){
 	case STATE_UNLOCK:
 		if(onTheGround){
 			if(!isDucking){
 				isCanBeAttacked = true;
-				if(horSpeed ==0){
+				if(horSpeed ==0 && hp !=0){
 					scr_set_sprites_movement(spr_idle);
 				}
 				else{
