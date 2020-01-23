@@ -5,9 +5,9 @@
 #endregion
 
 #region //variables
-#macro GRAVITY_RESET	0.5
+#macro GRAVITY_RESET	0.48
 #macro SPEED_WALK		3
-#macro JUMP_FORCE		-10
+#macro JUMP_FORCE		-13
 #macro SPEED_RUN		4
 #endregion
 

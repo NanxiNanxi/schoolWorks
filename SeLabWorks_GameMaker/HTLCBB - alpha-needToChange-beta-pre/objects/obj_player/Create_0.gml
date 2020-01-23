@@ -1,3 +1,4 @@
+
 horSpeed = 0;
 verSpeed = 0;
 myGravity = GRAVITY_RESET;
@@ -25,6 +26,7 @@ frameCounter = 0
 isLose1stPlay = true
 isWin1stPlay = true
 
+isLowKicking = false;
 //isTimesUp = false;
 
 toLeft=0;
@@ -37,7 +39,7 @@ kick = 0;
 isDucking = false;
 
 hit = 0;
-hp = 300;
+hp = 100;
 hp_max = hp;
 flash = 0;
 isLose = false;
@@ -45,11 +47,11 @@ isCanBeAttacked = true;
 isBlock = false;
 isJumpAttack = false;
 specialAttackCounter = 0;
-is1stSpecialCounterAdded = false;
-is2ndSpecialCounterAdded = false;
-is3rdSpecialCounterAdded = false;
+isCrouching = false;
 
-isSpecialAttackUsed = 0;
+global.isSpecialContinue = true;
+
+global.isCanSpecialAttack = true;
 
 onTheGround = false;
 can_attack = true;

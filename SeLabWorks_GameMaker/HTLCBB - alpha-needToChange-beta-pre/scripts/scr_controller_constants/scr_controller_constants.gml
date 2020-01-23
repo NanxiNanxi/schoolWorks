@@ -12,6 +12,7 @@
 #macro K_SPECIAL_PRE (myPlayer ==PLAYER0)?ord("F"):vk_numpad5
 #macro K_LOW_KICK	(myPlayer ==PLAYER0)?ord("C"):vk_numpad2
 #macro K_SPECIAL_ATTACK (myPlayer ==PLAYER0)?ord("C"):vk_numpad3
+
 #endregion			
 
 

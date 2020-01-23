@@ -16,7 +16,7 @@ if  max(keyboard_check_pressed(ord("S")), 0 ,keyboard_check_pressed(vk_down))==1
 if keyboard_check_pressed(vk_enter){
 	switch (current_index){
 		case 0:
-			room_goto(rm_character_select);
+			room_goto(rm_choose_stage);
 		break
 		
 		case 1:
@@ -25,14 +25,10 @@ if keyboard_check_pressed(vk_enter){
 		break;
 		
 		case 2:
-			room_goto(rm_choose_stage)
-		break
-		
-		case 3:
 		
 			room_goto(rm_credit)
 		break
-		case 4:
+		case 3:
 			game_end();
 		break
 		

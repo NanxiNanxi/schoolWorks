@@ -26,34 +26,33 @@ switch (myStatus){
 				
 			
 			}
-			else if(attack_type = ATTACK_LOW_KICK){
-				if(image_index>=1) and (image_index<=3){
-					scr_create_attack(self, 1, obj_low_kick_hitbox)
-				
-				}
-			}
+		
 			else if(attack_type = ATTACK_SPECIAL_ATTACK){
+				if(global.isCanSpecialAttack ){
+					if(image_index >=0 and (image_index <=3)){
+						var h = instance_create_layer(x,y,"Instances",obj_special_attack);
+						h.image_xscale = other.image_xscale;
+						h.owner = self;
+						h.damage = 1;
+					
 				
-				if(image_index >=2 and (image_index <=3)){
-					var h = instance_create_layer(x,y,"Instances",obj_special_attack);
-					h.image_xscale = other.image_xscale;
-					h.owner = self;
-					h.damage = 1;
-					//0.25 per frame, 4 frames per cycle
-					isSpecialAttackUsed = 0.25;
-				
-					with h{
-						//find direction 
+						with h{
+							//find direction 
 						
-						h.speed = h.image_xscale*100;
-						h.direction = image_angle;
-						h.image_angle = image_angle
+							h.speed = h.image_xscale*100;
+							h.direction = image_angle;
+							h.image_angle = image_angle
 					
 					
-						//other.specialAttackCounter = other.specialAttackCounter - isSpecialAttackUsed?1:0;
+							//other.specialAttackCounter = other.specialAttackCounter - isSpecialAttackUsed?1:0;
+						}
+						alarm[3] = 2; //keep attacking
+						
+						alarm[2] = 100;//switch to can not attack
 					}
-				
 				}
+				
+				
 			
 				
 				}
@@ -75,10 +74,16 @@ switch (myStatus){
 			
 	
 	}
+	if(attack_type = ATTACK_LOW_KICK){
+				if(image_index>=1) and (image_index<=3){
+					scr_create_attack(self, 1, obj_low_kick_hitbox)
+				
+				}
+			}
 }
 if(!onTheGround){
 	if(attack_type = ATTACK_JUMP_KICK){
-		if(image_index>=1) and (image_index<=3){
+		if(image_index>=1) and (image_index<=4){
 					scr_create_attack(self,1,obj_jump_kick_hitbox)
 					
 				

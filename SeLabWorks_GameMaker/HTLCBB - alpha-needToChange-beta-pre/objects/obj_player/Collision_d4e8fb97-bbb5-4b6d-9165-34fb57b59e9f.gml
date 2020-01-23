@@ -1,9 +1,9 @@
 /// @description Insert description here
 
-if(isCanBeAttacked && isBlock = false){
+if(isCanBeAttacked ){
 		if other.owner == self
 	{
-		specialAttackCounter = specialAttackCounter - isSpecialAttackUsed;
+		
 		
 		audio_play_sound(bgm_punch,1000, false)
 		
@@ -20,10 +20,10 @@ if(isCanBeAttacked && isBlock = false){
 		instance_destroy()
 
 }
-else if(isCanBeAttacked && isBlock = true){
+else if(isCanBeAttacked ){
 if other.owner == self
 	{
-		specialAttackCounter = specialAttackCounter - isSpecialAttackUsed;
+		
 		audio_play_sound(bgm_punch,1000, false)
 		
 		exit

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(isCanBeAttacked && isBlock = false){
+
 		if other.owner == self
 	{
 		audio_play_sound(bgm_punch,1000, false)
@@ -14,8 +14,8 @@ if(isCanBeAttacked && isBlock = false){
 	with other 
 		instance_destroy()
 
-}
-else if(isCanBeAttacked && isBlock = true){
+
+/**else if(isCanBeAttacked && isBlock = true){
 if other.owner == self
 	{
 		audio_play_sound(bgm_punch,1000, false)
@@ -28,4 +28,4 @@ if other.owner == self
 	//specialAttackCounter  = specialAttackCounter+1;
 	with other 
 		instance_destroy()
-}
+}**/

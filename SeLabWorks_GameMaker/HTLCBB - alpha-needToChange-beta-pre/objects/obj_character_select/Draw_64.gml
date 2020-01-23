@@ -38,7 +38,10 @@ if p1_ready and p2_ready {
 	draw_text(width-150, room_height/2+270, "Main Menu: Press ESCAPE")
 	if(keyboard_check_pressed(vk_shift)) 
 	{
-		room_goto(rm_game);
+		if (global.isGame1){ room_goto(rm_game)}
+		if(global.isGame2){room_goto(rm_game2)};
+		
+		
 		audio_play_sound(bgm_game_start,1000,false);
 	}
 	if(keyboard_check_pressed(vk_escape)) room_goto(rm_main_menu);

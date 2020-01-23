@@ -5,7 +5,17 @@
     "name": "obj_game_over_rectangle",
     "eventList": [
         {
-            "id": "687cdee6-632e-4655-8425-74fea605c3ed",
+            "id": "59b8fbad-7963-4c72-9813-65cf3e055514",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "a2b08b6f-42cc-4bb2-9a83-06f88b723abc"
+        },
+        {
+            "id": "81265831-0173-47f8-b521-ca4af52548a8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

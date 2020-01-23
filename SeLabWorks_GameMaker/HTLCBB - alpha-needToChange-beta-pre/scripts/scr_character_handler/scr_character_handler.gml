@@ -14,15 +14,23 @@ switch(myStatus){
 				onTheGround = false;
 				
 			}
-			if(keyboard_check_released(K_SPECIAL_PRE)){
-				if(keyboard_check_pressed(K_LOW_KICK)){
+			isCrouching = keyboard_check(down);
+			if(isCrouching){
+				
+					if(keyboard_check_pressed(K_LOW_KICK)){
 					scr_set_attack(ATTACK_LOW_KICK)
+				
+			
+				
+			
+				
 				}
 			
 			}
-			
+				
 			//check if the player is crouching
 			isDucking = keyboard_check(down);
+			
 			
 		
 		}
@@ -50,12 +58,11 @@ switch(myStatus){
 		else if (keyboard_check_pressed(K_KICK)){
 			scr_set_attack(ATTACK_KICK);
 		}
-		if(specialAttackCounter > 0){
-				if(keyboard_check_pressed(K_SPECIAL_ATTACK)){
-					scr_set_attack(ATTACK_SPECIAL_ATTACK);
-				}
-			}
 		
+		else if(keyboard_check_pressed(K_SPECIAL_ATTACK)){
+			scr_set_attack(ATTACK_SPECIAL_ATTACK);
+		}
+			
 		
 	break;
 	

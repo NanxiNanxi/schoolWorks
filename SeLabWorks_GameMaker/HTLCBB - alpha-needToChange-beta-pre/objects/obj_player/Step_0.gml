@@ -16,29 +16,21 @@ if(hp <=0){
 
 //}
 
-if(hp < 250){
-	if(!is1stSpecialCounterAdded){
-		specialAttackCounter = specialAttackCounter+1;
-		is1stSpecialCounterAdded = true;
-	}
-}
-if(hp < 150){
-	if(!is2ndSpecialCounterAdded && is1stSpecialCounterAdded){
-		specialAttackCounter = specialAttackCounter+1;
-		is2ndSpecialCounterAdded = true;
-	}
-}
-if(hp < 50 && hp > 0){
-	if(!is3rdSpecialCounterAdded && is1stSpecialCounterAdded && is2ndSpecialCounterAdded){
-		specialAttackCounter = specialAttackCounter+1;
-		is3rdSpecialCounterAdded = true;
-	}
-}
 
 
-
-
+if(global.isNeedToGoMain){
+	if(room = rm_game || room = rm_game2){
 	
+	room_persistent = false;
+	
+	room_goto(rm_main_menu)
+	global.isNeedToGoMain = false;
+	}
+	
+	
+	
+}
+
 
 
 
