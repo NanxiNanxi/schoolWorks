@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundInfo"
+        android:layout_below="@id/imageView"
+        android:text="@string/info"
+        android:textColor="@color/infoColor"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/priceQuestion"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:text="@string/infoPrice"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/priceQuestion"
+        android:layout_alignBottom="@id/priceQuestion"
+        android:layout_toLeftOf="@id/txtPrice"
+        android:text="@string/dollarSign"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/priceQuestion"
+        android:layout_alignBottom="@id/priceQuestion"
+        android:layout_alignParentRight="true"
+        android:inputType="numberDecimal"
+        android:ems="4"/>
+    <TextView
+        android:id="@+id/downQuestion"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/priceQuestion"
+        android:text="@string/infoDownPayment"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/downQuestion"
+        android:layout_alignBottom="@id/downQuestion"
+        android:layout_toLeftOf="@id/txtDown"
+        android:text="@string/dollarSign"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/txtDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/downQuestion"
+        android:layout_alignBottom="@id/downQuestion"
+        android:layout_alignParentRight="true"
+        android:inputType="numberDecimal"
+        android:ems="4"/>
+
+    <RadioGroup
+        android:id="@+id/yearOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/downQuestion"
+        android:layout_centerHorizontal="true"
+        android:background="@color/backgroundInfo"
+        android:paddingRight="40dp"
+        android:paddingLeft="20dp">
+
+        <RadioButton
+            android:id="@+id/radio2year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/yearOp1"
+            android:textColor="@color/infoColor"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yearOp2"
+            android:textColor="@color/infoColor"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yearOp3"
+            android:textColor="@color/infoColor"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/infoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yearOptions"
+        android:layout_centerInParent="true"
+        android:text="@string/buttonInfo"/>
+    <Button
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoButton"
+        android:layout_centerInParent="true"
+        android:text="@string/buttonText"/>
+    <TextView
+        android:id="@+id/reportResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/load"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
