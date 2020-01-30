@@ -29,6 +29,9 @@ switch(myStatus){
 						isCrouchBlocking = true	
 					
 					}
+					else if(max(keyboard_check_pressed(K_SPECIAL_ATTACK),0,C_SPECIAL_ATTACK_PRESSED)==1){
+						scr_set_attack(ATTACK_CROUCH_SPECIAL);
+					}
 			
 			
 			}
@@ -50,7 +53,7 @@ switch(myStatus){
 			scr_set_attack(ATTACK_KICK);
 		}
 		
-		else if(max(keyboard_check_pressed(K_SPECIAL_ATTACK),0,C_SPECIAL_ATTACK_PRESSED)==1){
+		else if(max(keyboard_check_pressed(K_SPECIAL_ATTACK),0,C_SPECIAL_ATTACK_PRESSED)==1 && !isCrouching){
 			scr_set_attack(ATTACK_SPECIAL_ATTACK);
 		}
 		
@@ -63,7 +66,11 @@ switch(myStatus){
 				horSpeed = 7*direct
 				isJumpAttack = true;
 			
-		}
+			}
+			if(max(keyboard_check_pressed(K_SPECIAL_ATTACK),0,C_SPECIAL_ATTACK_PRESSED)==1){
+				scr_set_attack(ATTACK_JUMP_SPECIAL);
+			}
+		
 	
 		
 		}

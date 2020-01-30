@@ -121,6 +121,14 @@ switch(myStatus){
 					
 						scr_set_sprites_movement(spr_attack[attack_type]);
 					}
+				if(attack_type ==9){
+					
+						scr_set_sprites_movement(spr_attack[attack_type]);
+					}
+				if(attack_type ==10){
+					
+						scr_set_sprites_movement(spr_attack[attack_type]);
+					}
 				
 				
 				

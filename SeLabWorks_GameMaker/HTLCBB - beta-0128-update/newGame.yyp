@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "2cb114de-7356-4f65-990c-01f87c3a6f85",
+            "Value": {
+                "id": "1b827768-1aed-428b-923f-0cf1bf30a408",
+                "resourcePath": "sprites\\spr_couch_special_hitbox\\spr_couch_special_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2dc464ad-fcdb-4bc2-ada1-c30b9a3c9923",
             "Value": {
                 "id": "ebbbd604-2286-4ea0-8fe6-6ba245201ce4",
@@ -1031,6 +1039,14 @@
             }
         },
         {
+            "Key": "b1d419e1-b772-4b7c-accb-3158a44469be",
+            "Value": {
+                "id": "2bd307c0-2f3d-482b-880c-398a561e418a",
+                "resourcePath": "sprites\\final_spr_gavin_jump_special\\final_spr_gavin_jump_special.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b20561a8-4a87-4512-bb93-1b351261ea91",
             "Value": {
                 "id": "a83f2572-871d-48cf-ba68-cf7d15ebc81b",
@@ -1143,6 +1159,14 @@
             }
         },
         {
+            "Key": "c37b9c7f-5a5b-4b47-ae61-37b45a9eaa51",
+            "Value": {
+                "id": "8b30f7ac-6bce-40e4-bc1a-4d18652a1769",
+                "resourcePath": "sprites\\final_spr_gavin_crouch_special\\final_spr_gavin_crouch_special.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c3e464ce-2572-4ab7-b20e-1e1c2221956b",
             "Value": {
                 "id": "f07d3c8a-d032-47cf-b602-bba48d9ecb94",
@@ -1239,6 +1263,14 @@
             }
         },
         {
+            "Key": "cebccb78-7aaf-40ea-8422-00b2617b799c",
+            "Value": {
+                "id": "138dbd15-7ca5-4c5e-b7db-7fd683efbb08",
+                "resourcePath": "sprites\\final_spr_mike_jump_special\\final_spr_mike_jump_special.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cee09d68-97b2-4c35-b799-4129bf61a2d1",
             "Value": {
                 "id": "f09943ba-9eb1-4a36-a4b3-5c50d302f051",
@@ -1292,6 +1324,14 @@
                 "id": "54829f2d-7793-423a-84d3-e562a61cb229",
                 "resourcePath": "objects\\obj_global_controller_flags\\obj_global_controller_flags.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d5a7acae-062d-4966-a5ea-a2ee24a7df70",
+            "Value": {
+                "id": "15fae7e7-5458-4074-a16b-650617c3b642",
+                "resourcePath": "sprites\\final_spr_mike_crouch_special\\final_spr_mike_crouch_special.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1372,6 +1412,14 @@
                 "id": "f925c891-1b61-4b38-b6fa-0b65f0321ac3",
                 "resourcePath": "views\\e3ea45e8-fc2b-4410-9c86-48bd0e6e2f7b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e6bb514d-3535-4b0a-95c7-e4677c88f19e",
+            "Value": {
+                "id": "4a66f072-0a58-447e-99aa-e922acd0a12f",
+                "resourcePath": "objects\\obj_mike_crouch_special\\obj_mike_crouch_special.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1463,6 +1511,14 @@
             }
         },
         {
+            "Key": "f6b52357-0b53-4bb9-b83a-73fd00487e43",
+            "Value": {
+                "id": "342506a5-317a-43ad-baf2-5b5de7c1aef5",
+                "resourcePath": "sprites\\spr_crouch_special_mike_hitbox\\spr_crouch_special_mike_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f798c54d-3c3e-4f20-9275-e20282979606",
             "Value": {
                 "id": "cd1cb593-c09b-4a51-b15a-e2176363b5a9",
@@ -1492,6 +1548,14 @@
                 "id": "1ad082cf-6cd1-459b-9332-a18ac8676d89",
                 "resourcePath": "sprites\\spr_special_attack2\\spr_special_attack2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fdf6792a-9dc1-4a57-84c8-5f706fbce225",
+            "Value": {
+                "id": "10ce6bf2-927d-4ff9-82a7-da76046f2485",
+                "resourcePath": "objects\\obj_courch_special_attack\\obj_courch_special_attack.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

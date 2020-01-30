@@ -20,7 +20,10 @@ switch(argument0){
 		spr_lose = spr_Mike_lose;
 		
 		spr_attack[8] = final_spr_Mike_crouch_Block
+		spr_attack[9] = final_spr_mike_crouch_special
+		spr_attack[10] = final_spr_mike_jump_special
 		obj_special = obj_Mike_special_attack
+		obj_crouch_special = obj_mike_crouch_special
 		
 		
 		
@@ -44,7 +47,10 @@ switch(argument0){
 		spr_win = spr_Gavin_win;
 		spr_lose = spr_Gavin_lose;
 		spr_attack[8] = final_spr_gavin_crouch_block
+		spr_attack[9] = final_spr_gavin_crouch_special
+		spr_attack[10] = final_spr_gavin_jump_special
 		obj_special = obj_special_attack
+		obj_crouch_special =obj_courch_special_attack
 		
 	break
 	
